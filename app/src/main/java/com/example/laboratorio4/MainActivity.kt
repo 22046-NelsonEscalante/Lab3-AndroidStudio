@@ -68,7 +68,9 @@ fun Screen1(modifier: Modifier = Modifier) {
             )
 
             Row(horizontalArrangement = Arrangement.Center) {
-                Column(modifier = Modifier.weight(1f).padding(4.dp)) {
+                Column(modifier = Modifier
+                    .weight(1f)
+                    .padding(4.dp)) {
                     Image(
                         painter = painterResource(id = R.drawable.sn),
                         contentDescription = "UVG",
@@ -79,18 +81,20 @@ fun Screen1(modifier: Modifier = Modifier) {
                     Text(
                         text = "Service Now",
                         modifier = Modifier
-                            .background(Color(40,140,40))
+                            .background(Color(40, 140, 40))
                             .fillMaxWidth(),
                         color = Color.White
                     )
                 }
-                Column(modifier = Modifier.weight(1f).padding(4.dp)) {
+                Column(modifier = Modifier
+                    .weight(1f)
+                    .padding(4.dp)) {
                     Image(
                         painter = painterResource(id = R.drawable.actualidaduvg),
                         contentDescription = "UVG",
                         modifier = Modifier
-                                .height(100.dp)
-                                .align(CenterHorizontally)
+                            .height(100.dp)
+                            .align(CenterHorizontally)
                     )
                     Text(
                         text = "Actualidad UVG",
@@ -110,7 +114,9 @@ fun Screen1(modifier: Modifier = Modifier) {
             )
 
             Row(horizontalArrangement = Arrangement.Center) {
-                Column(modifier = Modifier.weight(1f).padding(4.dp)) {
+                Column(modifier = Modifier
+                    .weight(1f)
+                    .padding(4.dp)) {
                     Image(
                         painter = painterResource(id = R.drawable.jack),
                         contentDescription = "UVG",
